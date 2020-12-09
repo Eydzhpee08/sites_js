@@ -1,0 +1,31 @@
+html {
+    background: rgba(202, 215, 238, 0.52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.cube {
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(circle, dodgerblue 70%,#000 80%);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin: 15px;
+    transition: 500ms;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}

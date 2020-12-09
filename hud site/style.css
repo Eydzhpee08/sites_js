@@ -1,0 +1,23 @@
+html {
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-left {
+    background: url("img/hud.jpg") 50% no-repeat transparent;
+    width: 1300px;
+    height: 400px;
+    margin: 300px auto;
+    transition: 700ms;
+    transform: perspective(500px) rotateY(-15deg) rotateX(0);
+    animation: rote 3s linear infinite;
+    border-radius: 20px;
+}
+@keyframes rote {
+    50% {
+        transform: perspective(500px) rotateY(15deg) rotateX(0);
+    }
+}

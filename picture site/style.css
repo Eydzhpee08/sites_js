@@ -1,0 +1,42 @@
+.box1 {
+    width: 100%;
+    height: 70vh;
+    background: url("nature.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box2 {
+    width: 100%;
+    height: 70vh;
+    background: url("nfs.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box3 {
+    width: 100%;
+    height: 70vh;
+    background: url("beach.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box4 {
+    width: 100%;
+    height: 70vh;
+    background: url("hud.png") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box5 {
+    width: 100%;
+    height: 70vh;
+    background: url("nature.png") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box6 {
+    width: 100%;
+    height: 70vh;
+    background: url("wot.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
